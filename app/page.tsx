@@ -4,10 +4,12 @@ import { motion } from "framer-motion"
 import Navigation from "@/app/components/navigation"
 import SocialSidebar from "@/app/components/social-sidebar"
 import HeroContent from "@/app/components/hero-content"
+import FloatingBackground from "@/app/components/floating-Back-ground"
 
 export default function Page() {
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white relative overflow-hidden">
+      <FloatingBackground />
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-transparent" />
 
       <Navigation />
