@@ -12,7 +12,7 @@ export default function Page() {
       <FloatingBackground />
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-transparent" />
 
-      <Navigation />
+     
       <SocialSidebar />
 
       <div className="container mx-auto px-4 pt-32">
